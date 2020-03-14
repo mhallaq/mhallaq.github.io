@@ -1,0 +1,37 @@
+body{
+  margin:0px;
+  text-align:center;
+
+}
+
+#main{  
+  background-color:#ECECEC;
+
+}
+
+#image{
+   max-width: 100%;
+   height: auto;
+   border-radius:30px;
+   display:block;
+   margin: 0 auto;
+  
+}
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  line-height: 1.2;
+}
+
+li {
+  margin: 16px 0;
+}
+
+@media ( max-width : 500px) and (min-width:300px)
+{
+  #main{
+    background-color:green;
+  }  
+}
